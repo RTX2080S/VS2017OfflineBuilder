@@ -56,7 +56,7 @@ Write-Output "`n"
 Write-Output "$(Get-Date) Step 3: Downloading Visual Studio 2017 offline files..."
 Write-Output "Please wait, this process will take some time. "
 
-& $vsInstaller --layout $isoFolder --lang en-US --add Microsoft.VisualStudio.Workload.ManagedDesktop -add Microsoft.VisualStudio.Workload.NetCoreTools -add Microsoft.VisualStudio.Workload.NetWeb -add Component.GitHub.VisualStudio -add Microsoft.VisualStudio.Component.Git --quiet | Out-Null
+& $vsInstaller --quiet --layout $isoFolder --lang en-US --add Microsoft.VisualStudio.Workload.ManagedDesktop -add Microsoft.VisualStudio.Workload.NetCoreTools -add Microsoft.VisualStudio.Workload.NetWeb -add Component.GitHub.VisualStudio -add Microsoft.VisualStudio.Component.Git --includeRecommended | Out-Null
 Write-Output "Download complete! "
 
 if (Test-Path $isoFolder) {
