@@ -72,5 +72,5 @@ Write-Output "$(Get-Date) Step 4: Building Visual Studio 2017 installation iso..
 & $cdpacker -n -m -d -lVS2017Pro $isoFolder $isoFile 2>&1 | %{ "$_" }
 
 Write-Output "`n"
-Write-Output "$(Get-Date) Done: Building complete! Press any key to exit... "
-pause
+Write-Output "$(Get-Date) Done: Building complete! "
+Start-Sleep -s 30
