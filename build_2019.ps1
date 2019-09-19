@@ -33,7 +33,7 @@ if (-Not (Test-Path $autorunInf)) {
 Write-Output "`n"
 Write-Output "$(Get-Date) Step 2: A little bit clean-up..."
 
-$isoFile = "$PSScriptRoot\vs2019pro.iso"
+$isoFile = "$PSScriptRoot\vs2019com.iso"
 $isoFolder = "$PSScriptRoot\vs2019offline"
 
 if (test-path $isoFile) {
