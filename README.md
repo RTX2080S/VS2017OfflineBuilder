@@ -1,5 +1,5 @@
-# Visual Studio 2017 Offline iso Builder
-Building Visual Studio 2017 Offline Installation iso. <br/>
+# Visual Studio 2022 Offline iso Builder
+Building Visual Studio 2022 Offline Installation iso. <br/>
 <b>IMPORTANT!</b> This Powershell script is for practice purposes only! <br/>
 Please limit the usage of this script to yourself only! <br/>
 <br/>
