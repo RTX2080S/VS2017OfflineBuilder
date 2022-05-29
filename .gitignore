@@ -288,5 +288,5 @@ __pycache__/
 *.xsd.cs
 
 # Visual Studio Offline Files
-vs2017offline/
 vs2019offline/
+vs2022offline/
